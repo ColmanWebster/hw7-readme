@@ -71,17 +71,17 @@ inquirer
         fs.appendFile('ReadMe.md', 
 `
 Table of Contents:  
-![Questions](#questions)
+['Questions'](#questions)
 
 Title: ${answer1}
 Description: ${answer2}
 License badge: ${badgeLink}
 Instructions for installation: ${answer8}
-Something about usage: ${answer5}
+Usage: ${answer5}
 License notice: "This software is covered under the ${answer3} license."
 Contributors & Contributing: "Project Contributors: ${answer6}
 Tests: ${answer7}
-![Questions](name="questions"): "Please direct all questions to ${answer4}@email.com."
+[Questions]: (questions)"Questions: " "Please direct all questions to ${answer4}@email.com."
 `,
             function(err) {
                 if (err) throw err;
