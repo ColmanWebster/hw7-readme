@@ -4,10 +4,10 @@ Table of Contents:
 
 Title: Project ReadMe
 Description: This Is The Project ReadMe.
-License badge: ![License: GPLv3](https://img.shields.io/badge/License-GPLv3-blue.svg)
+License badge: ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 Instructions for installation: This software needs to be installed.
 Usage: This is the software being used.
-License notice: "This software is covered under the GPLv3 license."
+License notice: "This software is covered under the MIT license."
 Contributors & Contributing: "Project Contributors: This software has contributors.
 Tests: This software has two tests and a pencil.
-[Questions]: (questions)"Questions: " "Please direct all questions to ColmanWebster@email.com."
+[Questions]: (questions)"Questions: " "Please direct all questions to N/A@email.com."
