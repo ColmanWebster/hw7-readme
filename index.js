@@ -81,7 +81,7 @@ Usage: ${answer5}
 License notice: "This software is covered under the ${answer3} license."
 Contributors & Contributing: "Project Contributors: ${answer6}
 Tests: ${answer7}
-### Questions: {#questions} "Please direct all questions to ${answer4}@email.com."
+<h6 id = "#questions">Questions: </h6> "Please direct all questions to ${answer4}@email.com."
 `,
             function(err) {
                 if (err) throw err;
