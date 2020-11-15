@@ -83,14 +83,14 @@ Table of Contents:
 <a href="#questions">Questions</a> \n
 
 ${badgeLink}
-<h6 id = "#title">Title: </h6> ${answer1}
-<h6 id = "#description">Description: </h6> ${answer2}
-<h6 id = "#installation">Instructions for installation: </h6> ${answer8}
-<h6 id = "#usage">Usage: </h6> ${answer5}
-<h6 id = "#license">License notice: </h6> "This software is covered under the ${answer3} license."
-<h6 id = "#contributors">Contributors & Contributing: "Project Contributors: </h6> ${answer6}
-<h6 id = "#tests">Tests: </h6> ${answer7}
-<h6 id = "#questions">Questions: </h6> "Please direct all questions to ${answer4}@email.com."
+<h6 id = "title">Title: </h6> ${answer1}
+<h6 id = "description">Description: </h6> ${answer2}
+<h6 id = "installation">Instructions for installation: </h6> ${answer8}
+<h6 id = "usage">Usage: </h6> ${answer5}
+<h6 id = "license">License notice: </h6> "This software is covered under the ${answer3} license."
+<h6 id = "contributors">Contributors & Contributing: "Project Contributors: </h6> ${answer6}
+<h6 id = "tests">Tests: </h6> ${answer7}
+<h6 id = "questions">Questions: </h6> "Please direct all questions to ${answer4}@email.com."
 `,
             function(err) {
                 if (err) throw err;
