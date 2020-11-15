@@ -71,16 +71,25 @@ inquirer
         fs.appendFile('ReadMe.md', 
 `
 Table of Contents:  
+
+<a href ="#badge">License Badge</a>
+<a href ="#title">Title</a>
+<a href ="#description">Description</a>
+<a href ="#installation">Installation</a>
+<a href ="#usage">Usage</a>
+<a href ="#license">License</a>
+<a href ="#contributors">Contributors</a>
+<a href ="#tests">Tests</a>
 <a href="#questions">Questions</a>
 
-Title: ${answer1}
-Description: ${answer2}
-License badge: ${badgeLink}
-Instructions for installation: ${answer8}
-Usage: ${answer5}
-License notice: "This software is covered under the ${answer3} license."
-Contributors & Contributing: "Project Contributors: ${answer6}
-Tests: ${answer7}
+<h6 id = "#badge">License badge: </h6> ${badgeLink}
+<h6 id = "#title">Title: </h6> ${answer1}
+<h6 id = "#description">Description: </h6> ${answer2}
+<h6 id = "#installation">Instructions for installation: </h6> ${answer8}
+<h6 id = "#usage">Usage: </h6> ${answer5}
+<h6 id = "#license">License notice: </h6> "This software is covered under the ${answer3} license."
+<h6 id = "#contributors">Contributors & Contributing: "Project Contributors: </h6> ${answer6}
+<h6 id = "#tests">Tests: </h6> ${answer7}
 <h6 id = "#questions">Questions: </h6> "Please direct all questions to ${answer4}@email.com."
 `,
             function(err) {
